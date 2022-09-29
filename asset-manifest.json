@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-page/static/css/main.6743d7ac.css",
+    "main.css": "/portfolio-page/static/css/main.0b670c35.css",
     "main.js": "/portfolio-page/static/js/main.8c6d4d09.js",
     "static/media/1060-proto.png": "/portfolio-page/static/media/1060-proto.dff4c10c80f628b73835.png",
     "static/media/codegrade-research.png": "/portfolio-page/static/media/codegrade-research.81e4f260050d779ba588.png",
@@ -16,11 +16,11 @@
     "static/media/python.png": "/portfolio-page/static/media/python.7a9da81b5ea6a4550127.png",
     "static/media/javascript.png": "/portfolio-page/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-page/index.html",
-    "main.6743d7ac.css.map": "/portfolio-page/static/css/main.6743d7ac.css.map",
+    "main.0b670c35.css.map": "/portfolio-page/static/css/main.0b670c35.css.map",
     "main.8c6d4d09.js.map": "/portfolio-page/static/js/main.8c6d4d09.js.map"
   },
   "entrypoints": [
-    "static/css/main.6743d7ac.css",
+    "static/css/main.0b670c35.css",
     "static/js/main.8c6d4d09.js"
   ]
 }
