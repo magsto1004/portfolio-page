@@ -1,6 +1,9 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import RealEstate from '../assets/realestate.jpg'
+import WorkItem from './WorkItem.js'
+import ReactPortfolio from '../assets/react-portfolio.png'
+import Utepils from '../assets/utepils.png'
+import Proto1060 from '../assets/1060-proto.png'
+import CodegradeResearch from '../assets/codegrade-research.png'
 
 const Work = () => {
   return (
@@ -13,119 +16,10 @@ const Work = () => {
 
             {/* container */}
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                {/* grid item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-amber-100 tracking-wider">
-                            React JS Application
-                        </span>
-                        <div className="pt-8 text-center">
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Demo</button>
-                            </a>
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* grid item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-amber-100 tracking-wider">
-                            React JS Application
-                        </span>
-                        <div className="pt-8 text-center">
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Demo</button>
-                            </a>
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* grid item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-amber-100 tracking-wider">
-                            React JS Application
-                        </span>
-                        <div className="pt-8 text-center">
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Demo</button>
-                            </a>
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* grid item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-amber-100 tracking-wider">
-                            React JS Application
-                        </span>
-                        <div className="pt-8 text-center">
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Demo</button>
-                            </a>
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* grid item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-amber-100 tracking-wider">
-                            React JS Application
-                        </span>
-                        <div className="pt-8 text-center">
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Demo</button>
-                            </a>
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* grid item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-amber-100 tracking-wider">
-                            React JS Application
-                        </span>
-                        <div className="pt-8 text-center">
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Demo</button>
-                            </a>
-                            <a href="">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <WorkItem code="https://github.com/magsto1004/portfolio-page" image={ReactPortfolio} text="Portfolio in React JS"/>
+                <WorkItem code="" image={CodegradeResearch} text="Research project at UiO"/>
+                <WorkItem code="https://github.com/magsto1004/Utepils" image={Utepils} text="Utepils"/>
+                <WorkItem code="https://github.com/magsto1004/IN1060" image={Proto1060} text="Tangible interaction with Arduino"/>
             </div>
 
         </div>

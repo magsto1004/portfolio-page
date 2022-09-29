@@ -10,14 +10,19 @@ const About = () => {
                         About
                     </p>
                 </div>
-                <div></div>
             </div>
             <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                 <div className="sm:text-right text-4xl font-bold">
                     <p>I'm Magnus, nice to meet you! Please take a look around.</p>
                 </div>
                 <div>
-
+                    <p>
+                        I am passionate about learning new things, be it languages,
+                        culture, history, new hobbies and skills, or using new
+                        technologies. I have always enjoyed challenging myself
+                        creatively, with guitar and acting being my main creative
+                        outlets growing up. 
+                    </p>
                 </div>
             </div>
         </div>

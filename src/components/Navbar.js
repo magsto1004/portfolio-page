@@ -40,6 +40,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
+                    <Link to="courses" smooth={true} duration={500}>
+                        Courses
+                    </Link>
+                </li>
+                <li>
                     <Link to="contact" smooth={true} duration={500}>
                         Contact
                     </Link>
@@ -74,6 +79,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="courses" smooth={true} duration={500}>
+                        Courses
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
                     <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
                         Contact
                     </Link>
@@ -84,13 +94,13 @@ const Navbar = () => {
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                 <ul>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-                        <a className="flex justify-between items-center w-full text-amber-100" href="">
+                        <a className="flex justify-between items-center w-full text-amber-100" href="https://www.linkedin.com/in/magnus-stokkeland-4183b6188/">
                             LinkedIn
                             <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-                        <a className="flex justify-between items-center w-full text-amber-100" href="">
+                        <a className="flex justify-between items-center w-full text-amber-100" href="https://github.com/magsto1004">
                             Github
                             <FaGithub size={30} />
                         </a>
