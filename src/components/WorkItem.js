@@ -9,12 +9,12 @@ const WorkItem = (props) => {
                 {props.text}
             </span>
             <div className="pt-8 text-center">
-                <a href="">
+                { props.about != "" ? <a href={props.about}>
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">About</button>
-                </a>
+                </a> : <a></a>}
                 { props.code != "" ? <a href={props.code}>
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-amber-100 text-yellow-900 font-bold text-lg">Code</button>
-                </a> : <a></a>}
+                </a> : <a></a> }
             </div>
         </div>
     </div>

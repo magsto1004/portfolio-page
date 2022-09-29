@@ -16,10 +16,10 @@ const Work = () => {
 
             {/* container */}
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <WorkItem code="https://github.com/magsto1004/portfolio-page" image={ReactPortfolio} text="Portfolio in React JS"/>
-                <WorkItem code="" image={CodegradeResearch} text="Research project at UiO"/>
-                <WorkItem code="https://github.com/magsto1004/Utepils" image={Utepils} text="Utepils"/>
-                <WorkItem code="https://github.com/magsto1004/IN1060" image={Proto1060} text="Tangible interaction with Arduino"/>
+                <WorkItem about="https://github.com/magsto1004/portfolio-page/blob/master/README.md" code="https://github.com/magsto1004/portfolio-page" image={ReactPortfolio} text="Portfolio in React JS"/>
+                <WorkItem about="" code="" image={CodegradeResearch} text="Research project at UiO"/>
+                <WorkItem about="https://github.com/magsto1004/Utepils/blob/master/README.md" code="https://github.com/magsto1004/Utepils" image={Utepils} text="Utepils"/>
+                <WorkItem about="" code="https://github.com/magsto1004/IN1060" image={Proto1060} text="Tangible interaction with Arduino"/>
             </div>
 
         </div>
