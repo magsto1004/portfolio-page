@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-yellow-900 text-amber-100">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-yellow-900 text-amber-50">
 
             {/* logo */}
             <div>
@@ -94,25 +94,25 @@ const Navbar = () => {
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                 <ul>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-                        <a className="flex justify-between items-center w-full text-amber-100" href="https://www.linkedin.com/in/magnus-stokkeland-4183b6188/">
+                        <a className="flex justify-between items-center w-full text-amber-50" href="https://www.linkedin.com/in/magnus-stokkeland-4183b6188/">
                             LinkedIn
                             <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-                        <a className="flex justify-between items-center w-full text-amber-100" href="https://github.com/magsto1004">
+                        <a className="flex justify-between items-center w-full text-amber-50" href="https://github.com/magsto1004">
                             Github
                             <FaGithub size={30} />
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-                        <a className="flex justify-between items-center w-full text-amber-100" href="mailto: magnus.stokkeland@icloud.com">
+                        <a className="flex justify-between items-center w-full text-amber-50" href="mailto: magnus.stokkeland@icloud.com">
                             Email
                             <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-                        <a className="flex justify-between items-center w-full text-amber-100" href="">
+                        <a className="flex justify-between items-center w-full text-amber-50" href="">
                             Resume
                             <BsFillPersonLinesFill size={30} />
                         </a>
