@@ -7,7 +7,7 @@ const Home = () => {
             <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
                 <p className="text-green-700">Hi, my name is</p>
                 <h1 className="text-yellow-900 text-4xl sm:text-7xl font-bold">Magnus Stokkeland</h1>
-                <h2 className="text-yellow-600 text-4xl sm:text-7xl font-bold">I'm a computer science student at the University of Oslo</h2>
+                <h2 className="text-yellow-600 text-4xl sm:text-7xl font-bold">I'm a Computer Science student at the University of Oslo</h2>
                 <p className="text-yellow-600 py-4 max-w-[700px]">
                     I'm currently finishing the last year of my bachelor's degree in UX-design, with my sights set on a master's degree in either
                     UX-design or Programming and System Architecture.
