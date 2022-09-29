@@ -16,8 +16,7 @@ const Courses = () => {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                     <CourseItem url="https://github.com/magsto1004/portfolio-page" image={KotlinCert} text="Learn Kotlin"/>
                     <CourseItem url="https://github.com/magsto1004/Utepils" image={AndroidCert} text="Build Basic Android Apps with Java"/>
-                </div>
-    
+                </div>    
             </div>
         </div>
     )
